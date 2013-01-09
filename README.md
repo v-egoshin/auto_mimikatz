@@ -1,7 +1,7 @@
 auto_mimikatz
 =============
 
-*How to use
+# How to use
 load post_auto
 use auxiliary/scanner/smb/psexec_scanner
 # Wait session
