@@ -24,4 +24,3 @@ mv mimikatz_trunk/x64/mimikatz.exe /opt/metasploit/msf3/data/post/mimikatz-x64.e
 mv mimikatz_trunk/x64/sekurlsa.dll /opt/metasploit/msf3/data/post/sekurlsa-x64.dll
 # delete all
 cd / && rm -rf /tmp/Development
-
