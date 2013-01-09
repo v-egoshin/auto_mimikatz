@@ -30,3 +30,5 @@ rm -rf ~/.msf4/plugins
 rm -rf ~/.msf4/modules
 rm -rf /opt/metasploit/msf3/data/post/mimikatz*
 rm -rf /opt/metasploit/msf3/data/post/sekurlsa*
+
+
