@@ -1,3 +1,8 @@
+Description
+=============
+
+This script install necessary scripts and modules for using mimikatz in all meterpreter sessions
+
 Install
 =============
 
