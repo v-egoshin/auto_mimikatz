@@ -1,3 +1,8 @@
+Install
+=============
+
+ruby -e "$(curl -fsSkL raw.github.com/nxnrt/auto_mimikatz/master/install.rb)"
+
 How to use
 =============
 
