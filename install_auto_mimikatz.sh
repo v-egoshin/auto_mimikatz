@@ -23,6 +23,7 @@ mv mimikatz_trunk/Win32/sekurlsa.dll /opt/metasploit/msf3/data/post/sekurlsa-x86
 mv mimikatz_trunk/x64/mimikatz.exe /opt/metasploit/msf3/data/post/mimikatz-x64.exe
 mv mimikatz_trunk/x64/sekurlsa.dll /opt/metasploit/msf3/data/post/sekurlsa-x64.dll
 # delete all
+<<<<<<< HEAD
 cd / && rm -rf /tmp/Development
 
 
@@ -30,3 +31,6 @@ rm -rf ~/.msf4/plugins
 rm -rf ~/.msf4/modules
 rm -rf /opt/metasploit/msf3/data/post/mimikatz*
 rm -rf /opt/metasploit/msf3/data/post/sekurlsa*
+=======
+cd / && rm -rf /tmp/Development
+>>>>>>> 03e7077780b49c7f75fdc3d46ff95d0e8e915ea0
