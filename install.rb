@@ -27,7 +27,7 @@ FileUtils.cp_r Dir.glob('msf_plugins/*'), msf + '/plugins'
 FileUtils.cp_r Dir.glob('msf_modules/*'), msf + '/modules'
 
 # Get mimikatz MSF module
-puts "[+] Get mimikats MSF module: https://raw.github.com/mandreko/metasploit-framework/mimikatz_post/modules/post/windows/gather/mimikatz.rb"
+puts "[+] Get mimikatz MSF module: https://raw.github.com/mandreko/metasploit-framework/mimikatz_post/modules/post/windows/gather/mimikatz.rb"
 out = `wget https://raw.github.com/mandreko/metasploit-framework/mimikatz_post/modules/post/windows/gather/mimikatz.rb  2>&1`
 FileUtils.mv 'mimikatz.rb', msf + '/modules/post/windows/gather' if File.exist? 'mimikatz.rb'
 
